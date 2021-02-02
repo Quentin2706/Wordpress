@@ -1,0 +1,65 @@
+.header, footer {
+    background: #377bb5;
+}
+
+#navigation-principale li {
+    position: relative;
+    display: inline-block;
+    padding: 10px;
+    font-weight: 500;
+}
+
+#navigation-principale li a {
+    color: #fff;
+}
+
+div,
+.header,
+nav,
+ul,
+footer {
+    display: flex;
+    flex: 1;
+}
+
+.blog-header, .centrer, #navigation-principale>.menu>ul {
+    justify-content: center;
+    align-items: center;
+}
+
+.colonne {
+    flex-direction: column;
+}
+
+.foisDemi {
+    flex: 0.5;
+}
+
+.blog-main {
+    flex: 5;
+    flex-direction: column;
+}
+
+.fois0-25 {
+    flex: 0.25;
+}
+
+.blog-post-title {
+    text-decoration: underline;
+    font-size: 2em;
+}
+
+@media (min-width:768px) {
+    .col-sm-offset-1 {
+        margin-left: 0;
+    }
+}
+footer {
+     padding: 1em;
+}
+
+.footer {
+    color: white;
+    font-weight: bolder;
+    font-size: 2em;
+}
