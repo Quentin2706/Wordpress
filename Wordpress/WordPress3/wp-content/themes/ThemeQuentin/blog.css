@@ -1,4 +1,4 @@
-.header, footer {
+.header, footer, .footerFake {
     background: #377bb5;
 }
 
@@ -17,12 +17,12 @@ div,
 .header,
 nav,
 ul,
-footer {
+footer, .footerFake {
     display: flex;
     flex: 1;
 }
 
-.blog-header, .centrer, #navigation-principale>.menu>ul {
+.blog-header, .centrer, #navigation-principale, .menu-menu-1-container > ul {
     justify-content: center;
     align-items: center;
 }
@@ -54,12 +54,44 @@ footer {
         margin-left: 0;
     }
 }
-footer {
+footer, .footerFake {
      padding: 1em;
 }
 
-.footer {
+.footer, .footerFake {
     color: white;
     font-weight: bolder;
     font-size: 2em;
+}
+
+.pad1em {
+    padding: 1em;
+}
+
+#menu-menu-1 > .menu-item {
+    border-radius: 0.2em;
+    border: 1px solid white;
+    margin: 0 0.5em;
+    font-size: 1.5em;
+    text-align: center;
+    white-space: nowrap;
+}
+
+.fullwhite {
+    background-color: unset;
+    margin-top: 3vh;
+}
+
+.fixed {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.nowrap {
+    white-space: nowrap;
+}
+
+.algnitems {
+    align-items: center;
 }

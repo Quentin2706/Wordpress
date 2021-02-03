@@ -1,7 +1,12 @@
 </div> <!-- /.container -->
-<footer class="blog-footer">
+<footer class="blog-footer fullwhite">
     <div></div>
-        <div class="centrer footer"> Powered By Quentin !</div>
+        <div class="centrer footer"></div>
+    <div></div>
+</footer>
+<footer class="blog-footer fixed">
+    <div></div>
+        <div class="centrer footer nowrap"> Powered By Quentin !</div>
     <div></div>
 </footer>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>

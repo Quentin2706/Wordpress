@@ -19,8 +19,15 @@
 <body>
 
     <div class="header">
+        <div class="pad1em">
+    <?php if ( function_exists( 'the_custom_logo' ) ) {
+    the_custom_logo();
+}?>
+</div>
         <div class="container">
             <nav id="navigation-principale" role="navigation">
                 <?php wp_nav_menu( array( 'theme_location' => 'menu-principal' ) ); ?> </nav>
         </div>
+        <div></div>
+        <!-- <div class="flex0-25"><?php get_search_form(); ?></div> -->
     </div>
