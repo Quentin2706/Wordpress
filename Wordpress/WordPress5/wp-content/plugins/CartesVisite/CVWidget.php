@@ -3,6 +3,7 @@ class CVWidget extends WP_Widget {
    public function __construct() { 
        parent::__construct('CartesVisite', 'Carte de visite', array('description' => 'Un plug-in qui affiche une carte de visite')); 
        add_action('wp_loaded', array($this, 'save_donnees'));
+       
    } 
    public function getRowUser()
    {
